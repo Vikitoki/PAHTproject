@@ -1,0 +1,65 @@
+// Convect ==============================================
+.convect {
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+
+  background: url(../images/Cameras-bg.jpg) center no-repeat;
+  background-size: cover;
+  &__content {
+    border: 3px solid #fff;
+    display: flex;
+  }
+
+  &__left,
+  &__right {
+    flex: 0 0 50%;
+    padding: 15px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    width: 100%;
+
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      display: block;
+      padding: 8px;
+      min-height: 40px;
+      margin-bottom: 20px;
+
+      font-size: 18px;
+
+      border-radius: 5px;
+
+      &::placeholder {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(114, 114, 114);
+      }
+    }
+  }
+
+  &__item {
+    display: block;
+    padding: 10px;
+    min-height: 40px;
+    margin-bottom: 20px;
+
+		font-size: 18px;
+		line-height: 25px;
+		
+
+    border-radius: 5px;
+    background-color: #fff;
+  }
+}

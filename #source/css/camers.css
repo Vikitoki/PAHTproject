@@ -1,0 +1,8 @@
+.convect {
+  padding: 15px;
+  background: url(../../images/Cameras-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.convect__content {
+  border: 3px solid #fff;
+}
